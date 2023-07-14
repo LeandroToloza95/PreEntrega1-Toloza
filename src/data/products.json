@@ -1,0 +1,140 @@
+[
+    {
+        "id": "1",
+        "category": "Vehicles",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "What was the name of the first front-wheel-drive car produced by Datsun (now Nissan)?",
+        "correct_answer": "Cherry",
+        "incorrect_answers": [
+            "Sunny",
+            "Bluebird",
+            "Skyline"
+        ],
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0frvND8ov7xrBmQjsd1sLe-MWqooD6ty1vQ&usqp=CAU"
+    },
+    {
+        "id": "2",
+        "category": "Vehicles",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "Which of the following car manufacturers had a war named after it?",
+        "correct_answer": "Toyota",
+        "incorrect_answers": [
+            "Honda",
+            "Ford",
+            "Volkswagen"
+        ],
+        "img": "https://acroadtrip.blob.core.windows.net/catalogo-imagenes/s/RT_V_16651d14073a44b28d69c6d0cbc484bc.jpg"
+    },
+    {
+        "id": "3",
+        "category": "Vehicles",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Enzo Ferrari was originally an auto racer for what manufacturer before founding his own car company?",
+        "correct_answer": "Alfa Romeo",
+        "incorrect_answers": [
+            "Auto Union",
+            "Mercedes Benz",
+            "Bentley"
+        ],
+        "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Alfa_Romeo_8c_Spider_-_Flickr_-_The_Car_Spy_%282%29.jpg/640px-Alfa_Romeo_8c_Spider_-_Flickr_-_The_Car_Spy_%282%29.jpg"
+    },
+    {
+        "id": "4",
+        "category": "Vehicles",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "Which of the following collision avoidance systems helps airplanes avoid colliding with each other?",
+        "correct_answer": "TCAS",
+        "incorrect_answers": [
+            "GPWS",
+            "OCAS",
+            "TAWS"
+        ],
+        "img": "https://www.researchgate.net/publication/335570864/figure/fig1/AS:798965326938113@1567499586309/A-representation-of-TCAS-data-as-seen-by-the-pilot-in-the-cockpit-of-an-airliner-This-is.ppm"
+    },
+    {
+        "id": "5",
+        "category": "Vehicles",
+        "type": "boolean",
+        "difficulty": "easy",
+        "question": "The full English name of the car manufacturer BMW is Bavarian Motor Works",
+        "correct_answer": "True",
+        "incorrect_answers": [
+            "False"
+        ],
+        "img": "https://qph.cf2.quoracdn.net/main-qimg-ec471bfb8bf33bbd5e5d3e87fab8e7c7-lq"
+    },
+    {
+        "id": "6",
+        "category": "Vehicles",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "Which one of these chassis codes are used by BMW 3-series?",
+        "correct_answer": "E46",
+        "incorrect_answers": [
+            "E39",
+            "E85",
+            "F10"
+        ],
+        "img": "https://upload.wikimedia.org/wikipedia/commons/6/69/BMW320i_E46_Lim.jpg"
+    },
+    {
+        "id": "7",
+        "category": "Vehicles",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "Which car is the first mass-produced hybrid vehicle?",
+        "correct_answer": "Toyota Prius",
+        "incorrect_answers": [
+            "Chevrolet Volt",
+            "Honda Fit",
+            "Peugeot 308 R HYbrid"
+        ],
+        "img": "https://cdn.motor1.com/images/mgl/jlxZvg/s1/toyota-prius-2022.jpg"
+    },
+    {
+        "id": "8",
+        "category": "Vehicles",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "What engine is in the Lexus SC400?",
+        "correct_answer": "1UZ-FE",
+        "incorrect_answers": [
+            "2JZ-GTE",
+            "7M-GTE",
+            "5M-GE"
+        ],
+        "img": "https://upload.wikimedia.org/wikipedia/commons/5/57/1989_Toyota_1UZ-FE_Type_engine_rear.jpg"
+    },
+    {
+        "id": "9",
+        "category": "Vehicles",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "What country was the Trabant 601 manufactured in?",
+        "correct_answer": "East Germany",
+        "incorrect_answers": [
+            "Soviet Union",
+            "Hungary",
+            "France"
+        ],
+        "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Flag_of_East_Germany.svg/1200px-Flag_of_East_Germany.svg.png"
+    },
+    {
+        "id": "10",
+        "category": "Vehicles",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "What is the fastest road legal car in the world?",
+        "correct_answer": "Koenigsegg Agera RS",
+        "incorrect_answers": [
+            "Hennessy Venom GT",
+            "Bugatti Veyron Super Sport",
+            "Pagani Huayra BC"
+        ],
+        "img": "https://www.diariomotor.com/imagenes/2014/12/koenigsegg-agera.jpg"
+    }
+]

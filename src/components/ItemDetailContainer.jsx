@@ -2,26 +2,26 @@ import Container from 'react-bootstrap/Container';
 import data from '../data/products.json'
 import { useState } from 'react';
 import { useEffect } from 'react';
-import { ItemList } from './ItemList';
+import { ItemDetail } from './ItemDetail';
 import { useParams } from 'react-router-dom';
 
-export const ItemListContainer = (prop) => {
+export const ItemDetailContainer = (prop) => {
     const [products, setProducts] = useState([])
     const { id } = useParams()
-
-
-
+    
     useEffect(() => {
         const promesa = new Promise((resolve, reject) => {
             setTimeout(() => {
                 resolve(data);
-            }, 2000);
+            }, 1000);
         })
 
         promesa.then(result => {
             if (id) {
+                console.log(id)
                 setProducts(result.filter(
-                    product => product.difficulty === id
+                    products => products.id ===id
+                    
                 ))
             } else {
                 setProducts(result)
@@ -32,10 +32,11 @@ export const ItemListContainer = (prop) => {
 
     return (
         <Container>
-            <h1>{prop.greeting}</h1>
+            <h1>Detalle</h1>
             {products.length === 0 ?
                 <div>Loading...</div>
-                : <ItemList products={products} />
+                : 
+                <ItemDetail products={products} />
             }
         </Container>)
 
